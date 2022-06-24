@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "https://thanhdong98.github.io/task-management-frontend/static/css/main.8b3bcc81.chunk.css",
-    "main.js": "https://thanhdong98.github.io/task-management-frontend/static/js/main.7609a101.chunk.js",
-    "main.js.map": "https://thanhdong98.github.io/task-management-frontend/static/js/main.7609a101.chunk.js.map",
+    "main.js": "https://thanhdong98.github.io/task-management-frontend/static/js/main.86828bae.chunk.js",
+    "main.js.map": "https://thanhdong98.github.io/task-management-frontend/static/js/main.86828bae.chunk.js.map",
     "runtime~main.js": "https://thanhdong98.github.io/task-management-frontend/static/js/runtime~main.7da53c61.js",
     "runtime~main.js.map": "https://thanhdong98.github.io/task-management-frontend/static/js/runtime~main.7da53c61.js.map",
     "static/js/2.424862c5.chunk.js": "https://thanhdong98.github.io/task-management-frontend/static/js/2.424862c5.chunk.js",
     "static/js/2.424862c5.chunk.js.map": "https://thanhdong98.github.io/task-management-frontend/static/js/2.424862c5.chunk.js.map",
     "index.html": "https://thanhdong98.github.io/task-management-frontend/index.html",
-    "precache-manifest.966dec0521dda2d3d4fd5e86ebb71c5c.js": "https://thanhdong98.github.io/task-management-frontend/precache-manifest.966dec0521dda2d3d4fd5e86ebb71c5c.js",
+    "precache-manifest.1589e28ffcd67de8cfd64c1dde9e3c0d.js": "https://thanhdong98.github.io/task-management-frontend/precache-manifest.1589e28ffcd67de8cfd64c1dde9e3c0d.js",
     "service-worker.js": "https://thanhdong98.github.io/task-management-frontend/service-worker.js",
     "static/css/main.8b3bcc81.chunk.css.map": "https://thanhdong98.github.io/task-management-frontend/static/css/main.8b3bcc81.chunk.css.map"
   }
