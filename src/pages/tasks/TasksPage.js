@@ -77,7 +77,7 @@ class TasksPage extends Component {
         key={task.id}
         id={task.id}
         title={task.title}
-        description={task.descriptions}
+        descriptions={task.descriptions}
         status={task.status}
       />
     ));
