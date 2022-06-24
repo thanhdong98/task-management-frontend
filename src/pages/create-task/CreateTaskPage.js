@@ -27,17 +27,17 @@ class CreateTaskPage extends Component {
 
     this.state = {
       title: '',
-      description: '',
+      descriptions: '',
       errorMessage: null,
     };
   }
 
   handleSubmitTask = async () => {
     const { tasksStore } = this.props;
-    const { title, description } = this.state;
+    const { title, descriptions } = this.state;
 
     try {
-      await tasksStore.createTask(title, description);
+      await tasksStore.createTask(title, descriptions);
       window.location.hash = '/tasks';
     } catch (error) {
       const errorMessage = error.response.data.message;
@@ -71,7 +71,7 @@ class CreateTaskPage extends Component {
               rows="8"
               margin="normal"
               variant="outlined"
-              onChange={e => this.setState({ description: e.target.value })}
+              onChange={e => this.setState({ descriptions: e.target.value })}
             />
           </FormControl>
 

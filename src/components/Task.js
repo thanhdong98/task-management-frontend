@@ -33,14 +33,14 @@ class Task extends Component {
   };
 
   render() {
-    const { title, description } = this.props;
+    const { title, descriptions } = this.props;
 
     return (
       <CardContainer>
         <Card>
           <CardContent>
             <CardTitle>{title}</CardTitle>
-            {description}
+            {descriptions}
           </CardContent>
           <CardActions style={{ padding: '14px' }} disableSpacing>
             <Grid

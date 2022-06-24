@@ -25,7 +25,7 @@ export default class TasksService extends BaseHttpService {
     return this.patch(`tasks/${id}/status`, { status });
   }
 
-  createTask(title, description) {
-    return this.post(`tasks`, { title, description });
+  createTask(title, descriptions) {
+    return this.post(`tasks`, { title, descriptions });
   }
 }
